@@ -4,7 +4,7 @@
 
 A collection of open-source tools for secure, long-term digital inheritance and self-sovereignty.
 
-This project was founded by [Renato Lopez](https://github.com/renatoslopes) with the mission of creating resilient, humane, and transparent tools to help individuals and families protect their digital legacy across generations.
+This project was founded by [Renato Schiavinato Lopez](https://github.com/renatoslopes) with the mission of creating resilient, humane, and transparent tools to help individuals and families protect their digital legacy across generations.
 
 ---
 
