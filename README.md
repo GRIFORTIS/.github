@@ -13,7 +13,7 @@ This project was founded by [Renato Schiavinato Lopez](https://github.com/renato
 Our work is guided by three core principles:
 
 1.  **Security Through Simplicity:** Complexity is the enemy of security. Our tools are designed to be as simple as possible, both in their code and their user experience, to minimize the risk of catastrophic user error.
-2.  **Radical Transparency:** All our tools are, and will always be, 100% free and open source under the MIT license. We believe that security tools must be fully auditable by anyone, at any time.
+2.  **Radical Transparency:** All our tools are, and will always be, 100% free and open source under permissive licenses (MIT for code, Creative Commons for certain documents). We believe that security tools must be fully auditable by anyone, at any time.
 3.  **Humane Design:** We recognize that these tools will often be used during times of immense stress. Our primary focus is on creating calm, clear, and forgiving user experiences that empower non-technical users to succeed.
 
 ### ⚠️ Project Status: EXPERIMENTAL
