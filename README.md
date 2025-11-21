@@ -32,24 +32,24 @@ The GRIFORTIS ecosystem is composed of several distinct projects, each with a sp
 
 #### Applications
 
-*   **[Grifortis-Guardian](https://github.com/GRIFORTIS/Grifortis-Guardian)** (In Development)  
+*   **[GRIFORTIS GUARDIAN](https://github.com/GRIFORTIS/GRIFORTIS_GUARDIAN)** (In Development)
     Our flagship tool for mainstream users. A self-contained HTML application that provides a guided, humane interface for creating and recovering sharded backups using the industry-standard **SLIP39** and **SSKR** schemes. It is designed to be the safest and simplest entry point into distributed backups.
 
-*   **Schiavinato Sharing Tools** (Pre-Alpha / Planned)  
+*   **Schiavinato Sharing Tools** (Pre-Alpha / Planned)
     A set of HTML/JavaScript and Python tools that implement the Schiavinato Sharing scheme for BIP39 mnemonic splitting and recovery, based on the whitepaper and reference materials in the `Schiavinato_Sharing` repository.
 
 #### Foundational Schemes & Whitepapers
 
-*   **[Schiavinato Sharing](https://github.com/GRIFORTIS/Schiavinato_Sharing)** (Whitepaper & Reference Material)  
+*   **[Schiavinato Sharing](https://github.com/GRIFORTIS/Schiavinato_Sharing)** (Whitepaper & Reference Material)
     A human-executable BIP39 mnemonic sharing scheme based on arithmetic in `GF(2053)`. This repository hosts the whitepaper **“Schiavinato Sharing: Human-Executable Secret Sharing for BIP39 Mnemonics”** and related reference materials, including test vectors.
 
 #### Core Libraries
 
-*   **Schiavinato Sharing Libraries (Python & JavaScript)** (Planned)  
+*   **Schiavinato Sharing Libraries (Python & JavaScript)** (Planned)
     Clean, standalone libraries that serve as reference implementations of the Schiavinato Sharing scheme, designed for easy integration into other projects and for security auditing.
 
-*   **[grifortis-sss-libs](https://github.com/GRIFORTIS/grifortis-sss-libs)** (Planned)  
-    A future repository for the JavaScript and Python libraries that will power the Grifortis Guardian, providing clean implementations of SLIP39 and SSKR.
+*   **[grifortis-sss-libs](https://github.com/GRIFORTIS/grifortis-sss-libs)** (Planned)
+    A future repository for the JavaScript and Python libraries that will power the GRIFORTIS GUARDIAN, providing clean implementations of SLIP39 and SSKR.
 
 ### How to Contribute
 
