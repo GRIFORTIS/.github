@@ -35,13 +35,18 @@ The GRIFORTIS ecosystem is composed of several distinct projects, each with a sp
 *   **[Grifortis-Guardian](https://github.com/GRIFORTIS/Grifortis-Guardian)** (In Development)  
     Our flagship tool for mainstream users. A self-contained HTML application that provides a guided, humane interface for creating and recovering sharded backups using the industry-standard **SLIP39** and **SSKR** schemes. It is designed to be the safest and simplest entry point into distributed backups.
 
-*   **[Schiavinato-Cipher](https://github.com/GRIFORTIS/Schiavinato-Cipher)** (Pre-Alpha)  
-    An experimental, novel, pen-and-paper friendly Shamir's Secret Sharing scheme. This tool uses simple modular arithmetic in `GF(2053)` to allow for the manual, offline recovery of a BIP39 seed phrase without the need for a computer. This is a specialized tool for the ultimate sovereign individual.
+*   **Schiavinato Sharing Tools** (Pre-Alpha / Planned)  
+    A set of HTML/JavaScript and Python tools that implement the Schiavinato Sharing scheme for BIP39 mnemonic splitting and recovery, based on the whitepaper and reference materials in the `Schiavinato_Sharing` repository.
+
+#### Foundational Schemes & Whitepapers
+
+*   **[Schiavinato Sharing](https://github.com/GRIFORTIS/Schiavinato_Sharing)** (Whitepaper & Reference Material)  
+    A human-executable BIP39 mnemonic sharing scheme based on arithmetic in `GF(2053)`. This repository hosts the whitepaper **“Schiavinato Sharing: Human-Executable Secret Sharing for BIP39 Mnemonics”** and related reference materials, including test vectors.
 
 #### Core Libraries
 
-*   **[schiavinato-cipher.py](https://github.com/GRIFORTIS/schiavinato-cipher.py)** (Pre-Alpha)  
-    A clean, standalone Python library that serves as the reference implementation for the Schiavinato Cipher. Designed for easy integration into other projects and for security auditing.
+*   **Schiavinato Sharing Libraries (Python & JavaScript)** (Planned)  
+    Clean, standalone libraries that serve as reference implementations of the Schiavinato Sharing scheme, designed for easy integration into other projects and for security auditing.
 
 *   **[grifortis-sss-libs](https://github.com/GRIFORTIS/grifortis-sss-libs)** (Planned)  
     A future repository for the JavaScript and Python libraries that will power the Grifortis Guardian, providing clean implementations of SLIP39 and SSKR.
@@ -56,4 +61,9 @@ All feedback is welcome, especially critical security analysis.
 
 ### License
 
-All software and documentation under the GRIFORTIS organization is released under the **[MIT License](LICENSE)**.
+Unless otherwise noted in a specific repository:
+
+- **Software** under the GRIFORTIS organization is released under the **[MIT License](LICENSE)**.  
+- **Documentation and whitepapers** are generally MIT as well, but some projects (for example, the `Schiavinato_Sharing` whitepaper) may use **Creative Commons** licenses such as **CC BY 4.0**.
+
+Always refer to the `LICENSE` files within each repository for the exact terms.
