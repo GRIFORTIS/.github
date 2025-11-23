@@ -35,8 +35,8 @@ The GRIFORTIS ecosystem is composed of several distinct projects, each with a sp
 *   **[GRIFORTIS GUARDIAN](https://github.com/GRIFORTIS/GRIFORTIS_GUARDIAN)** (In Development)
     Our flagship tool for mainstream users. A self-contained HTML application that provides a guided, humane interface for creating and recovering sharded backups using the industry-standard **SLIP39** and **SSKR** schemes. It is designed to be the safest and simplest entry point into distributed backups.
 
-*   **Schiavinato Sharing Tools** (Pre-Alpha / Planned)
-    A set of HTML/JavaScript and Python tools that implement the Schiavinato Sharing scheme for BIP39 mnemonic splitting and recovery, based on the whitepaper and reference materials in the `Schiavinato_Sharing` repository.
+*   **Schiavinato Sharing Tools** (HTML tool available, Python library planned)
+    The HTML/JavaScript reference tool for BIP39 mnemonic splitting and recovery using the Schiavinato Sharing scheme is now available in the `Schiavinato_Sharing` repository. The Python library is planned for future development. Both are based on the whitepaper and reference materials.
 
 #### Foundational Schemes & Whitepapers
 
