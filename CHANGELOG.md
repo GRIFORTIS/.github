@@ -5,6 +5,7 @@ This repository provides **organization-wide** GitHub community health defaults 
 ## Unreleased
 
 - Add this `CHANGELOG.md` so updates to org-wide defaults are tracked and reviewable.
+- Align `README.md` with the standard repository format (warning block + purpose + links).
 
 ## Baseline (pre-changelog)
 

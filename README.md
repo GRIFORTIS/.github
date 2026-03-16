@@ -1,69 +1,37 @@
-# .github
+# GRIFORTIS organization defaults (`.github`)
 
-# GRIFORTIS
+[![Security: Experimental](https://img.shields.io/badge/Security-⚠️%20EXPERIMENTAL%20⚠️-red)](https://github.com/GRIFORTIS/.github/blob/main/SECURITY.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A collection of open-source tools for secure, long-term digital inheritance and self-sovereignty.
+> ## ⚠️ WARNING: EXPERIMENTAL SOFTWARE ⚠️
+> 
+>DO NOT USE IT FOR REAL FUNDS!
+>
+> GRIFORTIS projects may involve security-sensitive workflows and real financial assets. They have NOT been professionally audited. Use for testing, learning, and experimentation only.
+>
+> For security reporting, see [SECURITY](https://github.com/GRIFORTIS/.github/blob/main/SECURITY.md). For contribution guidelines, see [CONTRIBUTING](https://github.com/GRIFORTIS/.github/blob/main/CONTRIBUTING.md).
 
-This project was founded by [Renato Schiavinato Lopez](https://github.com/renatoslopes) with the mission of creating resilient, humane, and transparent tools to help individuals and families protect their digital legacy across generations.
+This repository provides **organization-wide** GitHub community health defaults for the `GRIFORTIS` org.
 
----
-
-### Core Philosophy
-
-Our work is guided by three core principles:
-
-1.  **Security Through Simplicity:** Complexity is the enemy of security. Our tools are designed to be as simple as possible, both in their code and their user experience, to minimize the risk of catastrophic user error.
-2.  **Radical Transparency:** All our tools are, and will always be, 100% free and open source under permissive licenses (MIT for code, Creative Commons for certain documents). We believe that security tools must be fully auditable by anyone, at any time.
-3.  **Humane Design:** We recognize that these tools will often be used during times of immense stress. Our primary focus is on creating calm, clear, and forgiving user experiences that empower non-technical users to succeed.
-
-### ⚠️ Project Status: EXPERIMENTAL
-
-**THIS IS A PRE-RELEASE, RESEARCH-LEVEL PROJECT.**
-
-The cryptographic methods and code within our repositories have **NOT** been professionally audited. While we are committed to following best practices, this software should be considered a public prototype.
-
-**DO NOT USE THESE TOOLS TO SECURE REAL FUNDS.** Use them for learning, experimentation, and to contribute to the development process.
+GitHub automatically applies these files to repositories in the organization (unless a repo overrides them with stricter or more specific policies).
 
 ---
 
-### Our Projects
+## What’s in this repository
 
-The GRIFORTIS ecosystem is composed of several distinct projects, each with a specific goal.
+- **Security policy**: [`SECURITY.md`](./SECURITY.md)
+- **Contributing guide**: [`CONTRIBUTING.md`](./CONTRIBUTING.md)
+- **Code of Conduct**: [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md)
+- **PR template**: [`PULL_REQUEST_TEMPLATE.md`](./PULL_REQUEST_TEMPLATE.md)
+- **Issue templates + config**: [`ISSUE_TEMPLATE/`](./ISSUE_TEMPLATE/)
+- **Organization profile README**: [`profile/README.md`](./profile/README.md)
 
-#### Applications
+## Start here (projects)
 
-*   **[GRIFORTIS GUARDIAN](https://github.com/GRIFORTIS/GRIFORTIS_GUARDIAN)** (In Development)
-    Our flagship tool for mainstream users. A self-contained HTML application that provides a guided, humane interface for creating and recovering sharded backups using the industry-standard **SLIP39** and **SSKR** schemes. It is designed to be the safest and simplest entry point into distributed backups.
+- **Canonical specification (and review entry point)**: [`schiavinato-sharing`](https://github.com/GRIFORTIS/schiavinato-sharing)
+- **Whitepaper**: [PDF (latest)](https://github.com/GRIFORTIS/schiavinato-sharing/releases/latest/download/WHITEPAPER.pdf) | [Releases](https://github.com/GRIFORTIS/schiavinato-sharing/releases) | [LaTeX](https://github.com/GRIFORTIS/schiavinato-sharing/blob/main/whitepaper/WHITEPAPER.tex)
+- **Implementations**:
+  - HTML (single-file, air-gapped): [`schiavinato-sharing-html`](https://github.com/GRIFORTIS/schiavinato-sharing-html)
+  - JS/TS: [`schiavinato-sharing-js`](https://github.com/GRIFORTIS/schiavinato-sharing-js)
+  - Python: [`schiavinato-sharing-py`](https://github.com/GRIFORTIS/schiavinato-sharing-py)
 
-*   **Schiavinato Sharing Tools** (HTML tool available, Python library planned)
-    The HTML/JavaScript reference tool for BIP39 mnemonic splitting and recovery using the Schiavinato Sharing scheme is now available in the `Schiavinato_Sharing` repository. The Python library is planned for future development. Both are based on the whitepaper and reference materials.
-
-#### Foundational Schemes & Whitepapers
-
-*   **[Schiavinato Sharing](https://github.com/GRIFORTIS/Schiavinato_Sharing)** (Whitepaper & Reference Material)
-    A human-executable BIP39 mnemonic sharing scheme based on arithmetic in `GF(2053)`. This repository hosts the whitepaper **“Schiavinato Sharing: Human-Executable Secret Sharing for BIP39 Mnemonics”** and related reference materials, including test vectors.
-
-#### Core Libraries
-
-*   **Schiavinato Sharing Libraries (Python & JavaScript)** (Planned)
-    Clean, standalone libraries that serve as reference implementations of the Schiavinato Sharing scheme, designed for easy integration into other projects and for security auditing.
-
-*   **[grifortis-sss-libs](https://github.com/GRIFORTIS/grifortis-sss-libs)** (Planned)
-    A future repository for the JavaScript and Python libraries that will power the GRIFORTIS GUARDIAN, providing clean implementations of SLIP39 and SSKR.
-
-### How to Contribute
-
-We welcome contributions of all kinds, from documentation improvements to bug reports to deep security analysis. This project will only succeed with the help of the open-source community.
-
-Please see our `CONTRIBUTING.md` guide for more details on our development process. The best way to start is by opening an issue in the relevant repository to discuss your ideas.
-
-All feedback is welcome, especially critical security analysis.
-
-### License
-
-Unless otherwise noted in a specific repository:
-
-- **Software** under the GRIFORTIS organization is released under the **[MIT License](LICENSE)**.  
-- **Documentation and whitepapers** are generally MIT as well, but some projects (for example, the `Schiavinato_Sharing` whitepaper) may use **Creative Commons** licenses such as **CC BY 4.0**.
-
-Always refer to the `LICENSE` files within each repository for the exact terms.
