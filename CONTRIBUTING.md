@@ -1,7 +1,7 @@
 ## Contributing to GRIFORTIS Projects
 
 Thank you for your interest in contributing to the GRIFORTIS ecosystem.  
-Our repositories focus on **long-term digital inheritance, backup robustness, and self-sovereign security**. Many of our projects, such as **Schiavinato Sharing**, are directly related to the protection of real financial assets.
+Our repositories focus on **long-term digital inheritance, backup robustness, and self-sovereign security**. Many of our projects, such as **DuraShare** (formerly Schiavinato Sharing), are directly related to the protection of real financial assets.
 
 Because of that, we ask contributors to follow the guidelines below so that collaboration remains safe, respectful, and technically rigorous.
 

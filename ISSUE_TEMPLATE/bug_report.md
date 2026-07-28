@@ -8,7 +8,7 @@ assignees: ''
 ## Summary
 
 **Which repository and component are affected?**  
-(e.g., `GRIFORTIS/Schiavinato_Sharing` test vectors, HTML tool, Python library, JS library)
+(e.g., `GRIFORTIS/durashare` test vectors, HTML tool, Python library, JS library)
 
 **Describe the bug**  
 A clear and concise description of what went wrong.
@@ -50,7 +50,7 @@ What actually happened? Include error messages, stack traces, or screenshots if 
 ## Additional Context
 
 - Does this involve:
-  - Schiavinato Sharing arithmetic or test vectors?
+  - DuraShare arithmetic or test vectors?
   - GRIFORTIS GUARDIAN?
   - Another GRIFORTIS project?
 

@@ -22,7 +22,7 @@ Describe the feature or improvement you’d like to see.
 
 If you have ideas for how this should work, outline them here. For example:
 
-- New modes or parameters for Schiavinato Sharing tools.
+- New modes or parameters for DuraShare tools.
 - Additional workflows in GRIFORTIS GUARDIAN.
 - New library APIs or bindings.
 

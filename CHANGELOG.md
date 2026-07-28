@@ -4,8 +4,7 @@ This repository provides **organization-wide** GitHub community health defaults 
 
 ## Unreleased
 
-- Add this `CHANGELOG.md` so updates to org-wide defaults are tracked and reviewable.
-- Align `README.md` with the standard repository format (warning block + purpose + links).
+- Rename protocol brand references from Schiavinato Sharing to **DuraShare**, and update project links to `GRIFORTIS/durashare` / `durashare-html` / `durashare-js` / `durashare-py`.
 
 ## Baseline (pre-changelog)
 
@@ -16,5 +15,10 @@ The repository already contains:
 - `SECURITY.md`
 - `PULL_REQUEST_TEMPLATE.md`
 - `ISSUE_TEMPLATE/` (issue templates + configuration)
-- `profile/README.md` (organization profile README)
+- `profile/README.md` (organization profile README; maintained in the `grifortis` repo profile path)
+
+Earlier tracked updates:
+
+- Add this `CHANGELOG.md` so updates to org-wide defaults are tracked and reviewable.
+- Align `README.md` with the standard repository format (warning block + purpose + links).
 

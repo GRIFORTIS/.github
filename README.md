@@ -28,10 +28,10 @@ GitHub automatically applies these files to repositories in the organization (un
 
 ## Start here (projects)
 
-- **Canonical specification (and review entry point)**: [`schiavinato-sharing`](https://github.com/GRIFORTIS/schiavinato-sharing)
-- **Whitepaper**: [PDF (latest)](https://github.com/GRIFORTIS/schiavinato-sharing/releases/latest/download/WHITEPAPER.pdf) | [Releases](https://github.com/GRIFORTIS/schiavinato-sharing/releases) | [LaTeX](https://github.com/GRIFORTIS/schiavinato-sharing/blob/main/whitepaper/WHITEPAPER.tex)
+- **Canonical specification (and review entry point)**: [`durashare`](https://github.com/GRIFORTIS/durashare) *(formerly Schiavinato Sharing)*
+- **Whitepaper**: [PDF (latest)](https://github.com/GRIFORTIS/durashare/releases/latest/download/WHITEPAPER.pdf) | [Releases](https://github.com/GRIFORTIS/durashare/releases) | [LaTeX](https://github.com/GRIFORTIS/durashare/blob/main/whitepaper/WHITEPAPER.tex)
 - **Implementations**:
-  - HTML (single-file, air-gapped): [`schiavinato-sharing-html`](https://github.com/GRIFORTIS/schiavinato-sharing-html)
-  - JS/TS: [`schiavinato-sharing-js`](https://github.com/GRIFORTIS/schiavinato-sharing-js)
-  - Python: [`schiavinato-sharing-py`](https://github.com/GRIFORTIS/schiavinato-sharing-py)
+  - HTML (single-file, air-gapped): [`durashare-html`](https://github.com/GRIFORTIS/durashare-html)
+  - JS/TS: [`durashare-js`](https://github.com/GRIFORTIS/durashare-js)
+  - Python: [`durashare-py`](https://github.com/GRIFORTIS/durashare-py)
 

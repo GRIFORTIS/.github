@@ -7,7 +7,7 @@ assignees: ''
 
 ## Which document?
 
-- Repository: (e.g., `GRIFORTIS/Schiavinato_Sharing`)
+- Repository: (e.g., `GRIFORTIS/durashare`)
 - File: (e.g., `WHITEPAPER.md`, `TEST_VECTORS.md`, `README.md`)
 - Section(s) / page(s):
 
