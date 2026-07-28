@@ -33,7 +33,7 @@ Briefly describe what you changed, focusing on:
 ## Testing
 
 - [ ] I added or updated tests.
-- [ ] I verified behavior against existing test vectors (e.g., `TEST_VECTORS.md` in `Schiavinato_Sharing`).
+- [ ] I verified behavior against existing test vectors (e.g., `test_vectors/` in `GRIFORTIS/durashare`).
 - [ ] I manually tested the relevant workflows.
 
 Describe how you tested this change (commands, platforms, or steps).

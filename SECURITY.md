@@ -1,6 +1,6 @@
 ## Security Policy for GRIFORTIS Projects
 
-Many GRIFORTIS repositories, including schemes such as **Schiavinato Sharing**, are intended to help users protect real digital assets and long-term backups.  
+Many GRIFORTIS repositories, including schemes such as **DuraShare** (formerly Schiavinato Sharing), are intended to help users protect real digital assets and long-term backups.  
 We take potential security issues seriously and ask that you follow this policy when reporting vulnerabilities or subtle failure modes.
 
 ---
