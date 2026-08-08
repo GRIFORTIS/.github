@@ -1,17 +1,9 @@
 # GRIFORTIS organization defaults (`.github`)
 
-[![Security: Experimental](https://img.shields.io/badge/Security-⚠️%20EXPERIMENTAL%20⚠️-red)](https://github.com/GRIFORTIS/.github/blob/main/SECURITY.md)
+[![Security: Unaudited](https://img.shields.io/badge/Security-Unaudited-orange)](https://github.com/GRIFORTIS/.github/blob/main/SECURITY.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-> ## ⚠️ WARNING: EXPERIMENTAL SOFTWARE ⚠️
-> 
->DO NOT USE IT FOR REAL FUNDS!
->
-> GRIFORTIS projects may involve security-sensitive workflows and real financial assets. They have NOT been professionally audited. Use for testing, learning, and experimentation only.
->
-> For security reporting, see [SECURITY](https://github.com/GRIFORTIS/.github/blob/main/SECURITY.md). For contribution guidelines, see [CONTRIBUTING](https://github.com/GRIFORTIS/.github/blob/main/CONTRIBUTING.md).
-
-This repository provides **organization-wide** GitHub community health defaults for the `GRIFORTIS` org.
+Organization-wide GitHub community health defaults for the `GRIFORTIS` org.
 
 GitHub automatically applies these files to repositories in the organization (unless a repo overrides them with stricter or more specific policies).
 
@@ -24,14 +16,20 @@ GitHub automatically applies these files to repositories in the organization (un
 - **Code of Conduct**: [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md)
 - **PR template**: [`PULL_REQUEST_TEMPLATE.md`](./PULL_REQUEST_TEMPLATE.md)
 - **Issue templates + config**: [`ISSUE_TEMPLATE/`](./ISSUE_TEMPLATE/)
-- **Organization profile README**: [`profile/README.md`](./profile/README.md)
+- **Organization profile README**: published from the [`grifortis`](https://github.com/GRIFORTIS/grifortis) profile path (see that repo)
 
-## Start here (projects)
+## DuraShare
 
-- **Canonical specification (and review entry point)**: [`durashare`](https://github.com/GRIFORTIS/durashare) *(formerly Schiavinato Sharing)*
+DuraShare **modifies existing, well-established cryptographic techniques** for human-friendly threshold backup. Reference implementations are thoroughly tested, published in good faith **as is**, and have **not** been independently audited. **Do not use with real funds.**
+
+- **Canonical specification**: [`durashare`](https://github.com/GRIFORTIS/durashare)
 - **Whitepaper**: [PDF (latest)](https://github.com/GRIFORTIS/durashare/releases/latest/download/WHITEPAPER.pdf) | [Releases](https://github.com/GRIFORTIS/durashare/releases) | [LaTeX](https://github.com/GRIFORTIS/durashare/blob/main/whitepaper/WHITEPAPER.tex)
 - **Implementations**:
   - HTML (single-file, air-gapped): [`durashare-html`](https://github.com/GRIFORTIS/durashare-html)
   - JS/TS: [`durashare-js`](https://github.com/GRIFORTIS/durashare-js)
   - Python: [`durashare-py`](https://github.com/GRIFORTIS/durashare-py)
+- **Standing review guide**: [`docs/review`](https://github.com/GRIFORTIS/durashare/blob/main/docs/review.md)
 
+## Disclaimer
+
+Software has been thoroughly tested and is not known to contain errors. It is made available in good faith, as is, so use at your own risk. The author does not assume any responsibility for any damage, financial or other, that may result from using this software. Implementations have not been independently audited. **Do not use with real funds.** See [SECURITY](./SECURITY.md).

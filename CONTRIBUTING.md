@@ -1,7 +1,7 @@
 ## Contributing to GRIFORTIS Projects
 
 Thank you for your interest in contributing to the GRIFORTIS ecosystem.  
-Our repositories focus on **long-term digital inheritance, backup robustness, and self-sovereign security**. Many of our projects, such as **DuraShare** (formerly Schiavinato Sharing), are directly related to the protection of real financial assets.
+Our repositories focus on **long-term digital inheritance, backup robustness, and self-sovereign security**. Many of our projects, such as **DuraShare**, are directly related to the protection of real financial assets.
 
 Because of that, we ask contributors to follow the guidelines below so that collaboration remains safe, respectful, and technically rigorous.
 
@@ -72,7 +72,7 @@ Many GRIFORTIS projects are **security-sensitive**. When contributing code or ch
 - Keep implementations:
   - **Small and auditable**,
   - **Dependency-light**, and
-  - **Explicit about their status** (experimental, unaudited, production-ready, etc.).
+  - **Explicit about their status** (unaudited, as-is, version-scoped audit if any, etc.).
 
 - Add tests or example usage whenever possible, particularly where subtle arithmetic or encoding is involved.
 
