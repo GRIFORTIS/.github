@@ -24,15 +24,17 @@ GitHub automatically applies these files to repositories in the organization (un
 
 DuraShare uses Shamir secret sharing to split a **standard BIP39** recovery phrase into **k-of-n** durable, human-readable shares in an offline, software-assisted experience, **while keeping all the math executable manually on paper**. It also allows **individual geographically distributed shares to be verified** before recovery, without gathering a threshold or revealing the secret.
 
-DuraShare **modifies existing, well-established cryptographic techniques** for human-friendly threshold backup. Reference implementations are thoroughly tested, published in good faith **as is**, and have **not** been independently audited. **Do not use with real funds.**
+DuraShare **modifies existing, well-established cryptographic techniques** for human-friendly threshold backup. Reference implementations are thoroughly tested, published in good faith **as is**, and have **not** been independently audited. See [Disclaimer](#disclaimer).
+
+## Links
 
 - **Canonical specification**: [`durashare`](https://github.com/GRIFORTIS/durashare)
+  - Standing review guide: [`docs/review`](https://github.com/GRIFORTIS/durashare/blob/main/docs/review.md)
 - **Whitepaper**: [PDF (latest)](https://github.com/GRIFORTIS/durashare/releases/latest/download/WHITEPAPER.pdf) | [Releases](https://github.com/GRIFORTIS/durashare/releases) | [LaTeX](https://github.com/GRIFORTIS/durashare/blob/main/whitepaper/WHITEPAPER.tex)
 - **Implementations**:
   - HTML (single-file, air-gapped): [`durashare-html`](https://github.com/GRIFORTIS/durashare-html)
-  - JS/TS: [`durashare-js`](https://github.com/GRIFORTIS/durashare-js)
+  - JavaScript/TypeScript: [`durashare-js`](https://github.com/GRIFORTIS/durashare-js)
   - Python: [`durashare-py`](https://github.com/GRIFORTIS/durashare-py)
-- **Standing review guide**: [`docs/review`](https://github.com/GRIFORTIS/durashare/blob/main/docs/review.md)
 
 ## People
 
