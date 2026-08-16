@@ -4,6 +4,12 @@ This repository provides **organization-wide** GitHub community health defaults 
 
 ## Unreleased
 
+- Replace Experimental warning with Unaudited/as-is public status (badge, disclaimer, CONTRIBUTING/SECURITY wording).
+- Add the canonical DuraShare definition, key-feature list, People block, License, and Disclaimer to the org defaults README.
+- Point the organization profile README note at the `grifortis` profile path instead of a local `profile/README.md`.
+
+## 2026-08
+
 - Rename protocol brand references from Schiavinato Sharing to **DuraShare**, and update project links to `GRIFORTIS/durashare` / `durashare-html` / `durashare-js` / `durashare-py`.
 
 ## Baseline (pre-changelog)
